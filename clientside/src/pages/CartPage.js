@@ -6,6 +6,8 @@ import DropIn from "braintree-web-drop-in-react";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { useCart } from "../context/cart";
+axios.defaults.baseURL = "https://graymart.com";
+
 const CartPage = () => {
   const [auth, setAuth] = useAuth();
   const [cart, setCart] = useCart();
