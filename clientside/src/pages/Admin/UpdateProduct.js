@@ -6,6 +6,7 @@ import axios from "axios";
 import { Select } from "antd";
 import { useNavigate, useParams } from "react-router-dom";
 const { Option } = Select;
+axios.defaults.baseURL = "https://graymart.com";
 
 const UpdateProduct = () => {
   const navigate = useNavigate();
