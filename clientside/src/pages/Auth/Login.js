@@ -5,7 +5,6 @@ import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
 import { useAuth } from "../../context/auth";
 import Layout from "../../components/Layout/Layout/Layout";
-import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout/Layout/Layout";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
