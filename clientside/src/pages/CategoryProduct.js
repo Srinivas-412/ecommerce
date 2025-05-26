@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout/Layout/Layout";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+axios.defaults.baseURL = "https://graymart.com";
+
 const CategoryProduct = () => {
   const params = useParams();
   const navigate = useNavigate();
