@@ -6,6 +6,8 @@ import { Checkbox, Radio } from "antd";
 import { Prices } from "../components/Prices";
 import { useCart } from "../context/cart";
 import toast from "react-hot-toast";
+axios.defaults.baseURL = "https://graymart.com";
+
 const HomePage = () => {
   const navigate = useNavigate();
   const [cart, setCart] = useCart();
