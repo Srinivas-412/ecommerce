@@ -4,7 +4,6 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
-import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout/Layout/Layout";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
